@@ -1,0 +1,216 @@
+*{
+    font-family: 'Bubblegum Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #A5BF45;
+    font-size: 1.375rem;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    margin-right: 30px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #000000
+}
+header nav ul li img {
+    height: 1.8rem;
+}
+.logo img {
+    height: 7.5rem;
+}
+.contenedor1 h1 {
+    font-size: 1.875rem;
+    text-align:center;
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
+}
+.contenedor1 p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 1.875rem;
+    margin-left: 7.8125rem;
+    margin-right: 7.8125rem;
+    margin-bottom: 1.875rem;
+}
+.contenedor2 {
+    background-color: #F2B705;
+}
+
+.contenedor2 h2 {
+    text-align:left;
+    font-size: 1.875rem;
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
+}
+.repartidor {
+    width: 30.625rem;
+    margin:15px;
+}
+.contenedor3{
+    padding-top:  1.875rem;
+    padding-bottom: 1.875rem;
+    text-align: center;
+}
+.contenedor3 div {
+display: inline-block;
+margin: 8px;
+text-align: center;
+font-size: 1.5rem;
+}
+.contenedor3 div a {
+    text-decoration: none;
+    color: #000000;
+}
+.contenedor3 div img{
+    width: 25rem;
+}
+.ropa img {
+    border-left:15px solid #FFDA69;
+    border-right: 15px solid #FFDA69;
+    border-top: 15px solid #FFDA69;
+    border-bottom: 30px solid #FFDA69;
+}
+.alimentos img {
+    border-left:15px solid #FCB866;
+    border-right: 15px solid #FCB866;
+    border-top: 15px solid #FCB866;
+    border-bottom: 30px solid #FCB866;
+}
+.juguetes img {
+    border-left:15px solid #C6E067;
+    border-right: 15px solid #C6E067;
+    border-top: 15px solid #C6E067;
+    border-bottom: 30px solid #C6E067;
+}
+.contenedor4  h4 {
+    text-align: center;
+    font-size: 1.875rem;
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
+
+
+}
+.contenedor4  {
+    background-color: #F28705;
+    color: #FFFF;
+}
+.contenedor4  {
+    display: flex;
+    flex-direction: row;
+}
+.testimonio {
+    flex: 1;
+    margin-right: 20px;
+}
+.contenedor5 {
+    font-size: 1.875rem;
+    text-align:center;
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
+}
+
+footer div {
+    background-color: #A5BF45;
+
+}
+footer div p {
+    font-size: 20px;
+    padding-top:1.875rem ;
+    margin-left:1.8125rem ;
+}
+footer div img {
+    padding-bottom: 1.875rem;
+    width:4.0625rem;
+    margin-top: 1.875rem;
+    margin-right: 7.8125rem;
+    margin-left: 7.8125rem;
+}
+
+/* css productos */
+
+.tituloProductos {
+    font-size: 1.875rem;
+    text-align:center;
+    padding-top: 1.875rem;
+    padding-bottom: 3.125rem;
+}
+.productos{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 35px 35px 35px 35px;
+}
+.productos li img {
+    width: 220px;
+}
+.productos h2 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.precio {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.descripcionPro {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.menuPaginas{
+    font-size: 1.25rem;
+    text-align: center;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* css carrito */
+
+.carrito {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.carrito h1 {
+    font-size: 2.8125rem;
+    text-align: center;
+}
+.carritoVacio {
+    text-align: center;
+}
+.textoCarrito{
+    font-size: 1.375rem;
+    text-align: justify;
+}
+.textoCarrito a {
+    text-decoration: none;
+    color: #000000
+}
