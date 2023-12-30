@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -21,10 +23,72 @@
             </ul>
         </nav>
     </header>
-    
+
     <main>
-        <h1>contacto</h1>
+        <h1 class="tituloContacto">Contacto</h1>
+        <main>
+            <section class="contactoWhatsapp">
+                <div>
+                    <h2>📱 ¿Tienes preguntas o necesitas ayuda? ¡Estamos aquí para ti! Contáctanos por WhatsApp o
+                        rellena nuestro formulario para recibir asistencia personalizada. 🐾✨</h2>
+                </div>
+                <div>
+                    <a href="https://whatsapp.com" target="_blank"><img src="../assets/Redsocial__Whatsapp.png"
+                            alt="Icono Whatasapp"></a>
+                    <p>Haz clic en el icono para abrir el chat</p>
+                </div>
+            </section>
+            <section class="formularioPrincipal">
+                <div class="formularioContenido">
+                    <h2>Formulario</h2>
+                    <form method="post">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre y apellido" class="contenidoTexto">
+
+                        <label for="correoElectronico">Correo Electronico</label>
+                        <input type="mail" id="correoElectronico" name="correoElectronico" required placeholder="holamundo@dominio.com" class="contenidoTexto">
+
+                        <label for="numCel">Numero Telefonico</label>
+                        <input type="tel" id="numCel" name="numCel" required placeholder="Ingresa tu numero" class="contenidoTexto">
+                        
+                        <label for="ayuda">Cuentanos ¿Que necesitas?</label>
+                        <textarea name="ayuda" id="ayuda" cols="70" rows="10" required  class="contenidoTexto"></textarea>
+
+                        <input type="submit" value="Enviar" class="enviar" formaction="../pages/recibido.html">
+                    </form>
+                </div>
+            </section>
+        </main>
 
     </main>
+
+    <footer>
+        <section class="footer">
+        <div class="whatsapp">
+            <p>¿Dudas?, mándanos un WhatsApp</p>
+            <a href="https://whatsapp.com" target="_blank"><img src="../assets/Redsocial__Whatsapp.png"
+                    alt="icon WhatsApp"></a>
+        </div>
+        <div class="redesSociales">
+            <p>¡Síguenos!</p>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=61554488266980&is_tour_completed=true"
+                        target="_blank"><img src="../assets/Redsocial_facebook.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/holaperrucos/" target="_blank"><img
+                            src="../assets/Redsocial_Instagram.png" alt=""></a></li>
+                <li><a href="https://twitter.com/HolaPerrucos" target="_blank"><img src="../assets/Redsocial_X.png"
+                            alt=""></a></li>
+            </ul>
+        </div>
+        <div class="logoFooter">
+            <a href="../index.html"><img src="../assets/LOGO CON NOMBRE.png" alt=""></a>
+        </div>
+        </section>
+        <div class="copyright">
+            <p>Copyright, Perrucos 2023.</p>
+        </div>
+
+    </footer>
 </body>
+
 </html>

@@ -33,32 +33,41 @@ header nav ul li img {
     height: 7.5rem;
 }
 .contenedor1 h1 {
-    font-size: 1.875rem;
+    font-size: 2.5rem;
     text-align:center;
     padding-top: 1.875rem;
     padding-bottom: 3.125rem;
 }
 .contenedor1 p {
-    font-size: 20px;
+    font-size: 1.5625rem;
     text-align: justify;
     margin-top: 1.875rem;
     margin-left: 7.8125rem;
     margin-right: 7.8125rem;
     margin-bottom: 1.875rem;
 }
-.contenedor2 {
+.contenedor2{
     background-color: #F2B705;
 }
-
 .contenedor2 h2 {
-    text-align:left;
-    font-size: 1.875rem;
+
+    text-align:center;
+    font-size: 2.5rem;
     padding-top: 1.875rem;
     padding-bottom: 3.125rem;
 }
+.contenedorEnvio {
+    display: flex;
+    align-items: center;
+}
+.contenedorEnvio p{
+    font-size: 2rem;
+    flex: 1;
+    margin-right: 20px;
+}
 .repartidor {
-    width: 30.625rem;
-    margin:15px;
+    width: 40rem;
+    margin:1.5rem;
 }
 .contenedor3{
     padding-top:  1.875rem;
@@ -82,33 +91,38 @@ font-size: 1.5rem;
     border-left:15px solid #FFDA69;
     border-right: 15px solid #FFDA69;
     border-top: 15px solid #FFDA69;
-    border-bottom: 30px solid #FFDA69;
+    border-bottom: 15px solid #FFDA69;
+    border-radius: 40px;
 }
 .alimentos img {
     border-left:15px solid #FCB866;
     border-right: 15px solid #FCB866;
     border-top: 15px solid #FCB866;
-    border-bottom: 30px solid #FCB866;
+    border-bottom: 15px solid #FCB866;
+    border-radius: 40px;
 }
 .juguetes img {
     border-left:15px solid #C6E067;
     border-right: 15px solid #C6E067;
     border-top: 15px solid #C6E067;
-    border-bottom: 30px solid #C6E067;
+    border-bottom: 15px solid #C6E067;
+    border-radius: 40px;
 }
 .contenedor4  h4 {
+    background-color: #F28705;
+    color:white;
     text-align: center;
-    font-size: 1.875rem;
+    font-size: 2.1875rem;
     padding-top: 1.875rem;
     padding-bottom: 3.125rem;
-
-
 }
-.contenedor4  {
+.contenedorTestimonios  {
     background-color: #F28705;
     color: #FFFF;
+    font-size: 1.5625rem;
+    padding: 80px;
 }
-.contenedor4  {
+.contenedorTestimonios  {
     display: flex;
     flex-direction: row;
 }
@@ -119,25 +133,54 @@ font-size: 1.5rem;
 .contenedor5 {
     font-size: 1.875rem;
     text-align:center;
-    padding-top: 1.875rem;
-    padding-bottom: 3.125rem;
+    padding: 75px;
 }
-
-footer div {
-    background-color: #A5BF45;
-
+footer {
+    background-color: #A5BF45; 
 }
-footer div p {
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+}
+.whatsapp {
+    text-align: center;
+}
+.whatsapp a img {
+    text-align: center;
+    width: 4.5rem;
+    
+}
+.whatsapp p{
     font-size: 20px;
-    padding-top:1.875rem ;
-    margin-left:1.8125rem ;
+    text-align: center;
+    margin: 10px;
 }
-footer div img {
-    padding-bottom: 1.875rem;
-    width:4.0625rem;
-    margin-top: 1.875rem;
-    margin-right: 7.8125rem;
-    margin-left: 7.8125rem;
+.redesSociales p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.redesSociales ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex;}
+
+.redesSociales li {
+    margin-right: 10px;
+}
+.redesSociales ul li a img {
+    width: 3.5rem;
+}
+.logoFooter a img{
+    width:6.5rem;
+}
+.copyright {
+    font-size: 19px;
+    text-align: center; 
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* css productos */
@@ -211,6 +254,97 @@ footer div img {
     text-align: justify;
 }
 .textoCarrito a {
+    text-decoration: none;
+    color: #000000
+}
+
+/* css contacto*/
+.tituloContacto {
+    margin: 4.5rem;
+    text-align: center;
+}
+.contactoWhatsapp {
+background-color: #A5BF45;
+}
+.contactoWhatsapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactoWhatsapp div:nth-child(1) {
+    flex: 1;
+    margin-right: 1.5rem; 
+}
+.contactoWhatsapp div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactoWhatsapp div:nth-child(2) p {
+    margin-top: 5px;
+    font-size: 1rem; 
+}
+.formularioPrincipal {
+    width: 940px;
+    padding-top: 20px; 
+    border-radius: 10px; 
+    margin: 0 auto;
+}
+.formularioContenido h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.2rem
+}
+.formularioContenido form label, input{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px
+}
+.contenidoTexto {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+}
+.contenidoTexto:hover {
+    border-color: #D95204;
+}
+.enviar{
+    width:20%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #F28705;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: #D95204;
+}
+/*css formulario enviado*/
+.responder {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.responder h1 {
+    font-size: 2.8125rem;
+    text-align: center;
+}
+.imagenRespuesta {
+    
+    text-align: center;
+}
+.textoRespuesta{
+    font-size: 1.375rem;
+    text-align: justify;
+}
+.textoRespuesta a {
     text-decoration: none;
     color: #000000
 }
